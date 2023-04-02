@@ -1,0 +1,22 @@
+@mixin sun{
+   @if (true){
+    background-color: $bgcolor;
+    font-family: $tfont;
+    font-size: $tsize;
+   }
+}
+
+@mixin center{
+    .grid{
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 2fr;
+        text-align: center;
+    }
+}
+@mixin wars{
+    @for $i from 1 through $count{
+        .step-#{$i}{
+            background-color: lighten($bgcolor, $i * 5%);
+        }
+    }
+}

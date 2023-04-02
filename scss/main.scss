@@ -1,0 +1,19 @@
+
+@import "variable";
+@import "mixin";
+.content{
+@include center;
+@include wars;
+}
+@include sun;
+.dark{
+    background-color: $bgcolor;
+    font-family: $tfont;
+    font-size: $tsize;
+}
+@include sun;
+.light{
+    background-color: $bgcolor;
+    font-family: $tfont;
+    font-size: $tsize;
+}

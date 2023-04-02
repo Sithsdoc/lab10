@@ -1,0 +1,26 @@
+.content .grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  text-align: center;
+}
+.content .step-1 {
+  background-color: #0d0d0d;
+}
+.content .step-2 {
+  background-color: #1a1a1a;
+}
+.content .step-3 {
+  background-color: #262626;
+}
+
+.dark {
+  background-color: black;
+  font-family: helvetica, sans-serif;
+  font-size: 30px;
+}
+
+.light {
+  background-color: black;
+  font-family: helvetica, sans-serif;
+  font-size: 30px;
+}/*# sourceMappingURL=main.css.map */
