@@ -2,21 +2,26 @@
    @if (true){
     background-color: $bgcolor;
     font-family: $tfont;
-    font-size: $tsize;
+    font-size: $tsize; 
+    width: fit-content;
+    margin: auto;
+    padding: 5px;
+    margin-top: 5px;
    }
 }
-
+//try to make 2 seperate grids for each word, or at the very least limit the background so it just surrounds the word, and move words to center of screen
 @mixin center{
     .grid{
         display: grid;
-        grid-template-columns: 2fr 1fr 1fr 2fr;
-        text-align: center;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        justify-items: center;
     }
 }
-@mixin wars{
+@mixin wars($count){
     @for $i from 1 through $count{
         .step-#{$i}{
-            background-color: lighten($bgcolor, $i * 5%);
+            background-color: lighten(green, $i * 10%);
         }
     }
 }

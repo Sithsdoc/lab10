@@ -3,17 +3,18 @@
 @import "mixin";
 .content{
 @include center;
-@include wars;
+@include wars(5);
+text-align: center;
 }
-@include sun;
+
 .dark{
-    background-color: $bgcolor;
-    font-family: $tfont;
-    font-size: $tsize;
+    @include wars(5);
+    @include sun;
+    color: $dcolor
 }
-@include sun;
+
 .light{
-    background-color: $bgcolor;
-    font-family: $tfont;
-    font-size: $tsize;
+    @include wars(5);
+    @include sun;
+    color: $lcolor;
 }

@@ -1,26 +1,78 @@
-.content .grid {
-  display: grid;
-  grid-template-columns: 2fr 1fr 1fr 2fr;
+.content {
   text-align: center;
 }
+.content .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
 .content .step-1 {
-  background-color: #0d0d0d;
+  background-color: #00b300;
 }
 .content .step-2 {
-  background-color: #1a1a1a;
+  background-color: #00e600;
 }
 .content .step-3 {
-  background-color: #262626;
+  background-color: #1aff1a;
+}
+.content .step-4 {
+  background-color: #4dff4d;
+}
+.content .step-5 {
+  background-color: #80ff80;
 }
 
 .dark {
-  background-color: black;
+  background-color: green;
   font-family: helvetica, sans-serif;
   font-size: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+  margin-top: 5px;
+  color: red;
+}
+.dark .step-1 {
+  background-color: #00b300;
+}
+.dark .step-2 {
+  background-color: #00e600;
+}
+.dark .step-3 {
+  background-color: #1aff1a;
+}
+.dark .step-4 {
+  background-color: #4dff4d;
+}
+.dark .step-5 {
+  background-color: #80ff80;
 }
 
 .light {
-  background-color: black;
+  background-color: green;
   font-family: helvetica, sans-serif;
   font-size: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin: auto;
+  padding: 5px;
+  margin-top: 5px;
+  color: blue;
+}
+.light .step-1 {
+  background-color: #00b300;
+}
+.light .step-2 {
+  background-color: #00e600;
+}
+.light .step-3 {
+  background-color: #1aff1a;
+}
+.light .step-4 {
+  background-color: #4dff4d;
+}
+.light .step-5 {
+  background-color: #80ff80;
 }/*# sourceMappingURL=main.css.map */
