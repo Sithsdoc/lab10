@@ -7,24 +7,24 @@
   align-items: center;
   justify-items: center;
 }
-.content .step-1 {
-  background-color: #00b300;
+.content:nth-child(1) {
+  background-color: gray;
 }
-.content .step-2 {
-  background-color: #00e600;
+.content:nth-child(2) {
+  background-color: #666666;
 }
-.content .step-3 {
-  background-color: #1aff1a;
+.content:nth-child(3) {
+  background-color: #4d4d4d;
 }
-.content .step-4 {
-  background-color: #4dff4d;
+.content:nth-child(4) {
+  background-color: #333333;
 }
-.content .step-5 {
-  background-color: #80ff80;
+.content:nth-child(5) {
+  background-color: #1a1a1a;
 }
 
 .dark {
-  background-color: green;
+  background-color: black;
   font-family: helvetica, sans-serif;
   font-size: 30px;
   width: -moz-fit-content;
@@ -34,24 +34,9 @@
   margin-top: 5px;
   color: red;
 }
-.dark .step-1 {
-  background-color: #00b300;
-}
-.dark .step-2 {
-  background-color: #00e600;
-}
-.dark .step-3 {
-  background-color: #1aff1a;
-}
-.dark .step-4 {
-  background-color: #4dff4d;
-}
-.dark .step-5 {
-  background-color: #80ff80;
-}
 
 .light {
-  background-color: green;
+  background-color: black;
   font-family: helvetica, sans-serif;
   font-size: 30px;
   width: -moz-fit-content;
@@ -61,18 +46,18 @@
   margin-top: 5px;
   color: blue;
 }
-.light .step-1 {
-  background-color: #00b300;
+.light:nth-child(1) {
+  background-color: gray;
 }
-.light .step-2 {
-  background-color: #00e600;
+.light:nth-child(2) {
+  background-color: #666666;
 }
-.light .step-3 {
-  background-color: #1aff1a;
+.light:nth-child(3) {
+  background-color: #4d4d4d;
 }
-.light .step-4 {
-  background-color: #4dff4d;
+.light:nth-child(4) {
+  background-color: #333333;
 }
-.light .step-5 {
-  background-color: #80ff80;
+.light:nth-child(5) {
+  background-color: #1a1a1a;
 }/*# sourceMappingURL=main.css.map */

@@ -1,4 +1,4 @@
-
+//references for mixin and variables
 @import "variable";
 @import "mixin";
 .content{
@@ -6,11 +6,11 @@
 @include wars(5);
 text-align: center;
 }
-
+//changes the text and background
 .dark{
-    @include wars(5);
+    //@include wars(5);
     @include sun;
-    color: $dcolor
+    color: $dcolor;
 }
 
 .light{

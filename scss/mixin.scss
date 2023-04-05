@@ -9,6 +9,7 @@
     margin-top: 5px;
    }
 }
+
 //try to make 2 seperate grids for each word, or at the very least limit the background so it just surrounds the word, and move words to center of screen
 @mixin center{
     .grid{
@@ -19,9 +20,9 @@
     }
 }
 @mixin wars($count){
-    @for $i from 1 through $count{
-        .step-#{$i}{
-            background-color: lighten(green, $i * 10%);
-        }
+    @for $i from 1 through $count {
+      &:nth-child(#{$i}) {
+        background-color: lighten(black, ($count - $i + 1) * 10%);
+      }
     }
-}
+  }
